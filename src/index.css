@@ -1,13 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Nunito", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+}
+
+header {
+  padding: 2rem 0;
+}
+
+.activity {
+  margin: 2rem 0;
+}
+
+.activity-form {
+  display: flex;
+  justify-content: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.activity-input {
+  width: calc(95% - 120px);
+  margin-right: 1rem !important;
+  background-color: white !important;
+}
+
+.activity-btn {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  font-weight: bold !important;
+}
+
+.activity-table-parent {
+  padding: 20px;
+  background-color: #f4f4f4;
+  margin: 2em 0;
+  border-radius: 5px;
+}
+
+.activity-table {
+  background-color: white;
+  width: 95% !important;
+  margin: 0 auto;
+}
+
+.MuiTableCell-head {
+  font-weight: 700 !important;
+}
+
+.docs_parent {
+  display: flex;
+}
+
+.docs_left {
+  flex: 0.2;
+}
+
+.docs_right {
+  flex: 0.8;
+  padding: 0 2rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+}
+.login-form .activity-input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8rem 0;
+}
+
+.alert {
+  display: block;
+  margin-bottom: 3em;
+  background: #cacaca82;
+  padding: 1em;
+  border-radius: 5px;
+  color: black;
 }
